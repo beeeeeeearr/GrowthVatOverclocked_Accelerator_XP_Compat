@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Growth Vats Overclocked + Growth Accelerator Compat</name>
+  <author>Custom compatibility patch</author>
+  <packageId>bk.gvo.growthaccelerator.xpcompat</packageId>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <modDependencies>
+    <li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li>
+    <li><packageId>com.makeitso.enhancedgrowthvatlearning</packageId><displayName>Growth Vats: Overclocked</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2887084050</steamWorkshopUrl></li>
+    <li><packageId>kathanon.GrowthAccelerator</packageId><displayName>Growth Accelerator</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2994273559</steamWorkshopUrl></li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li><li>com.makeitso.enhancedgrowthvatlearning</li><li>kathanon.GrowthAccelerator</li><li>cyanobot.Biodrone</li>
+  </loadAfter>
+  <description>Adds individually selectable Efficient, Biodrive, Powerdrive, MAXIMUM OVERDRIVE, and Mass Produce modes to every Growth Accelerator. Each building stores its own mode and contributes its own growth, nutrient, storage, and power values to connected vats. Mass Produce provides +150% growth at +100% nutrients and 800 W while reducing skill XP to 25% and growth points to 20%. Newborn occupants automatically force linked accelerators to Efficient until XP and growth points become available, after which each accelerator resumes its saved selection. Includes editable sliders, exact power text boxes, colony-wide preset buttons, live mixed-mode XP and growth scaling, placement facing help, and Biodrone embryo compatibility.</description>
+</ModMetaData>
