@@ -1,0 +1,6 @@
+About/PublishedFileId.txt
+*.user
+*.suo
+.vs/
+bin/
+obj/

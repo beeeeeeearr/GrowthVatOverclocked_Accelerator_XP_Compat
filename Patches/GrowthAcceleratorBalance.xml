@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Runtime settings control the three accelerator stat offsets. -->
+  <!-- This XML only installs the optional directional placement helper. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="kathanon_GrowthAccelerator_GrowthVatAccelerator"]/placeWorkers</xpath>
+    <value>
+      <li>GrowthVatAcceleratorXPCompat.PlaceWorker_ShowAcceleratorFacing</li>
+    </value>
+  </Operation>
+</Patch>
